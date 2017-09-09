@@ -1,0 +1,9 @@
+
+#ignore IntelliJ idea project directory 
+.idea
+
+#ignore IntelliJ idea project file
+*.iml
+
+#ignore maven output directory
+target
