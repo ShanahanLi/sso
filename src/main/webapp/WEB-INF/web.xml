@@ -29,16 +29,7 @@
     
     <servlet-mapping>
         <servlet-name>ssoServlet</servlet-name>
-        <url-pattern>/cas/*</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <servlet-mapping>
-        <servlet-name>ssoServlet</servlet-name>
-        <url-pattern>/oauth2/*</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>ssoServlet</servlet-name>
-        <url-pattern>/saml2/*</url-pattern>
-    </servlet-mapping>
 </web-app>
